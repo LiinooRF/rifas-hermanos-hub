@@ -37,11 +37,8 @@ All colors MUST be HSL.
     --input: 0 0% 15%;
     --ring: 45 100% 65%;
 
-    /* Custom gradients and effects */
-    --gradient-gold: linear-gradient(135deg, hsl(45 100% 65%), hsl(40 100% 50%));
-    --gradient-luxury: linear-gradient(135deg, hsl(0 0% 8%), hsl(0 0% 15%));
-    --glow-gold: 0 0 30px hsl(45 100% 65% / 0.3);
-    --shadow-luxury: 0 20px 40px -10px hsl(0 0% 0% / 0.8);
+    /* Custom effects */
+    --shadow-luxury: 0 10px 25px -5px hsl(0 0% 0% / 0.4);
 
     --radius: 0.5rem;
 

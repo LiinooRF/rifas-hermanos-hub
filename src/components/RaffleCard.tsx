@@ -28,8 +28,8 @@ export const RaffleCard = ({
 
   return (
     <Card className={cn(
-      "group relative overflow-hidden border-border hover:shadow-luxury transition-all duration-500 cursor-pointer bg-gradient-luxury",
-      featured && "ring-2 ring-primary shadow-glow-gold",
+      "group relative overflow-hidden border-border hover:shadow-luxury transition-all duration-300 cursor-pointer bg-card",
+      featured && "ring-1 ring-primary",
       className
     )}
     onClick={handleClick}
@@ -59,7 +59,7 @@ export const RaffleCard = ({
           
           <Button 
             variant="default" 
-            className="w-full bg-gradient-gold hover:shadow-glow-gold transition-all duration-300 group-hover:scale-105"
+            className="w-full bg-primary hover:bg-primary/90 text-primary-foreground transition-all duration-300"
             onClick={(e) => {
               e.stopPropagation();
               handleClick();
