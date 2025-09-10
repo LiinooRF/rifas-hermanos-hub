@@ -5,7 +5,8 @@ import { cn } from "@/lib/utils";
 
 interface RaffleCardProps {
   title: string;
-  subtitle: string;
+  price: string;
+  minPurchase: string;
   image: string;
   imageAlt: string;
   url: string;
@@ -15,7 +16,8 @@ interface RaffleCardProps {
 
 export const RaffleCard = ({ 
   title, 
-  subtitle, 
+  price,
+  minPurchase, 
   image, 
   imageAlt, 
   url, 
@@ -48,13 +50,18 @@ export const RaffleCard = ({
         </div>
         
         <div className="p-6 space-y-4">
-          <div className="space-y-2">
+          <div className="space-y-3">
             <h3 className="text-2xl font-bold text-primary group-hover:text-accent transition-colors duration-300">
               {title}
             </h3>
-            <p className="text-muted-foreground text-sm leading-relaxed">
-              {subtitle}
-            </p>
+            <div className="space-y-1">
+              <p className="text-lg font-semibold text-foreground">
+                {price}
+              </p>
+              <p className="text-sm text-muted-foreground">
+                {minPurchase}
+              </p>
+            </div>
           </div>
           
           <Button 
