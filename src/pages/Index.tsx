@@ -6,12 +6,13 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <div className="bg-secondary">
-        <div className="container mx-auto px-4 py-12">
-          <div className="text-center">
-            <h1 className="text-4xl md:text-6xl font-bold text-primary leading-tight">
+      <div className="bg-secondary border-b border-border">
+        <div className="container mx-auto px-4 py-8 md:py-16">
+          <div className="text-center space-y-4">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-primary leading-tight tracking-tight">
               RIFAS LOS HERMANOS
             </h1>
+            <div className="w-16 md:w-24 h-1 bg-primary mx-auto rounded-full"></div>
           </div>
         </div>
       </div>
