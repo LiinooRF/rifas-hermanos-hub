@@ -34,9 +34,6 @@ const Index = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Rifas Disponibles
           </h2>
-          <p className="text-muted-foreground max-w-xl mx-auto">
-            Selecciona en cuál rifa deseas participar. Ambas rifas están activas simultáneamente.
-          </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 max-w-6xl mx-auto">
