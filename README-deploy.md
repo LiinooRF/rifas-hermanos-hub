@@ -5,7 +5,7 @@ Esta guía te ayudará a desplegar tu aplicación en un VPS Ubuntu con Nginx y S
 ## 📋 Requisitos Previos
 
 - VPS Ubuntu 20.04+ con acceso root
-- Dominio `rifaloshermanos.cl` apuntando a la IP de tu VPS
+- Dominio `rifalohermanos.cl` apuntando a la IP de tu VPS
 - Acceso SSH al servidor
 
 ## 🛠️ Configuración Inicial (Solo una vez)
@@ -152,8 +152,8 @@ sudo apt install certbot python3-certbot-nginx -y
 3. Ver logs: `sudo tail -f /var/log/nginx/error.log`
 
 ### SSL no funciona
-1. Verificar DNS: `nslookup rifaloshermanos.cl`
-2. Regenerar certificado: `sudo certbot --nginx -d rifaloshermanos.cl -d www.rifaloshermanos.cl`
+1. Verificar DNS: `nslookup rifalohermanos.cl`
+2. Regenerar certificado: `sudo certbot --nginx -d rifalohermanos.cl -d www.rifalohermanos.cl`
 
 ## 📞 Soporte
 
@@ -162,4 +162,4 @@ Si necesitas ayuda, revisa:
 2. El estado de los servicios
 3. La configuración DNS
 
-¡Tu aplicación estará disponible en `https://rifaloshermanos.cl`! 🎉
+¡Tu aplicación estará disponible en `https://rifalohermanos.cl`! 🎉
