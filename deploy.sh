@@ -8,7 +8,7 @@ set -e
 echo "🚀 Iniciando autodeploy de Rifas Los Hermanos..."
 
 # Variables
-DOMAIN="rifalohermanos.cl"
+DOMAIN="rifaloshermanos.cl"
 PROJECT_DIR="/var/www/rifaloshermanos"
 NGINX_CONFIG="/etc/nginx/sites-available/rifaloshermanos"
 NGINX_ENABLED="/etc/nginx/sites-enabled/rifaloshermanos"

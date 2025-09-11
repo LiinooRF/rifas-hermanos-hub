@@ -8,7 +8,7 @@ set -e
 echo "🔧 Configuración inicial del servidor Ubuntu para Rifas Los Hermanos..."
 
 # Variables
-DOMAIN="rifalohermanos.cl"
+DOMAIN="rifaloshermanos.cl"
 
 # Colores
 GREEN='\033[0;32m'

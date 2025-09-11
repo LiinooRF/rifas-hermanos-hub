@@ -43,7 +43,7 @@ const Index = () => {
             minPurchase="Mínimo 2 números"
             image={rifaAutoImage}
             imageAlt="Rifa de Autos Los Hermanos"
-            url="https://rifalohermanos.cl/toyota"
+            url="https://rifaloshermanos.cl/toyota"
             featured={true}
           />
           
@@ -53,7 +53,7 @@ const Index = () => {
             minPurchase="Mínimo 3 números"
             image={rifaDineroImage}
             imageAlt="Rifa de Dinero Los Hermanos"
-            url="https://rifalohermanos.cl/dinero"
+            url="https://rifaloshermanos.cl/dinero"
           />
         </div>
       </div>
