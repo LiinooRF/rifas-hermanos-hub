@@ -2,10 +2,8 @@ import { RaffleCard } from "@/components/RaffleCard";
 import { DeliveredPrizes } from "@/components/DeliveredPrizes";
 import rifaAutoImage from "@/assets/rifa-autos.jpg";
 import rifaDineroImage from "@/assets/rifa-dinero.jpg";
-
 const Index = () => {
-  return (
-    <div className="min-h-screen bg-background">
+  return <div className="min-h-screen bg-background">
       {/* Hero Section */}
       <div className="bg-secondary/50 backdrop-blur-sm border-b border-primary/20">
         <div className="container mx-auto px-4 py-12 md:py-20">
@@ -38,24 +36,9 @@ const Index = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 max-w-6xl mx-auto">
-          <RaffleCard
-            title="RIFA DE AUTOS"
-            price="$5.000"
-            minPurchase="Mínimo 2 números"
-            image={rifaAutoImage}
-            imageAlt="Rifa de Autos Los Hermanos"
-            url="https://rifaloshermanos.cl/toyota"
-            featured={true}
-          />
+          <RaffleCard title="RIFA DE AUTOS" price="$5.000" minPurchase="Mínimo 2 números" image={rifaAutoImage} imageAlt="Rifa de Autos Los Hermanos" url="https://rifaloshermanos.cl/toyota" featured={true} />
           
-          <RaffleCard
-            title="RIFA DE DINERO"
-            price="$3.000"
-            minPurchase="Mínimo 3 números"
-            image={rifaDineroImage}
-            imageAlt="Rifa de Dinero Los Hermanos"
-            url="https://rifaloshermanos.cl/dinero"
-          />
+          <RaffleCard title="RIFA DE DINERO" price="$3.000" minPurchase="Mínimo 3 números" image={rifaDineroImage} imageAlt="Rifa de Dinero Los Hermanos" url="https://rifaloshermanos.cl/dinero" />
         </div>
       </div>
 
@@ -67,13 +50,9 @@ const Index = () => {
       {/* Footer */}
       <footer className="bg-secondary py-8 border-t border-border">
         <div className="container mx-auto px-4 text-center">
-          <p className="text-muted-foreground text-sm">
-            © 2024 Rifas Los Hermanos. Todos los derechos reservados.
-          </p>
+          <p className="text-muted-foreground text-sm">© 2025 Rifas Los Hermanos. Todos los derechos reservados.</p>
         </div>
       </footer>
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
