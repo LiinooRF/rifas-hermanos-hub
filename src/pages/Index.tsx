@@ -1,4 +1,5 @@
 import { RaffleCard } from "@/components/RaffleCard";
+import { DeliveredPrizes } from "@/components/DeliveredPrizes";
 import rifaAutoImage from "@/assets/rifa-autos.jpg";
 import rifaDineroImage from "@/assets/rifa-dinero.jpg";
 
@@ -56,6 +57,11 @@ const Index = () => {
             url="https://rifaloshermanos.cl/dinero"
           />
         </div>
+      </div>
+
+      {/* Premios Entregados Section */}
+      <div className="bg-secondary/30 border-t border-border">
+        <DeliveredPrizes />
       </div>
 
       {/* Footer */}
