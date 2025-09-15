@@ -36,7 +36,7 @@ const Index = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 max-w-6xl mx-auto">
-          <RaffleCard title="RIFA DE AUTOS" price="$5.000" minPurchase="Mínimo 2 números" image={rifaAutoImage} imageAlt="Rifa de Autos Los Hermanos" url="https://rifaloshermanos.cl/toyota" featured={true} />
+          <RaffleCard title="TOYOTA FORTUNER" price="$10.000" minPurchase="Mínimo 1 número" image={rifaAutoImage} imageAlt="Rifa de Autos Los Hermanos" url="https://rifaloshermanos.cl/toyota" featured={true} />
           
           <RaffleCard title="RIFA DE DINERO" price="$3.000" minPurchase="Mínimo 3 números" image={rifaDineroImage} imageAlt="Rifa de Dinero Los Hermanos" url="https://rifaloshermanos.cl/dinero" />
         </div>
