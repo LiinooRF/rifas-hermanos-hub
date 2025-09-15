@@ -9,10 +9,11 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination";
 
-// Import de la imagen - Fácil de cambiar agregando más imágenes aquí
+// PASO 1: Importa tus imágenes aquí (pon las imágenes en src/assets/)
 import premioAuto1 from "@/assets/premio-auto-1.jpg";
+// import tuNuevaImagen from "@/assets/tu-nueva-imagen.jpg";
 
-// Array de premios entregados - Fácil de agregar más elementos
+// PASO 2: Agrega más ganadores copiando el formato de abajo
 const deliveredPrizes = [
   {
     id: 1,
@@ -22,7 +23,23 @@ const deliveredPrizes = [
     winner: "Carlos Mendoza",
     instagramUrl: "https://instagram.com/rifaloshermanos"
   }
-  // Para agregar más premios, solo copia el objeto anterior y cambia los valores
+  // PARA AGREGAR MÁS GANADORES: descomenta y edita el siguiente ejemplo:
+  // {
+  //   id: 2,
+  //   image: tuNuevaImagen,
+  //   imageAlt: "Descripción de la imagen para accesibilidad",
+  //   description: "Premio y fecha del sorteo",
+  //   winner: "Nombre del ganador",
+  //   instagramUrl: "https://instagram.com/rifaloshermanos"
+  // },
+  // {
+  //   id: 3,
+  //   image: otraImagen,
+  //   imageAlt: "Otra descripción",
+  //   description: "Otro premio - Fecha",
+  //   winner: "Otro ganador",
+  //   instagramUrl: "https://instagram.com/rifaloshermanos"
+  // }
 ];
 
 const PRIZES_PER_PAGE = 6;
