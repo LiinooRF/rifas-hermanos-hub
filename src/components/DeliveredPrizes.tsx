@@ -9,14 +9,10 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination";
 
-// Imports de las imágenes
+// Import de la imagen - Fácil de cambiar agregando más imágenes aquí
 import premioAuto1 from "@/assets/premio-auto-1.jpg";
-import premioDinero1 from "@/assets/premio-dinero-1.jpg";
-import premioAuto2 from "@/assets/premio-auto-2.jpg";
-import premioDinero2 from "@/assets/premio-dinero-2.jpg";
-import premioAuto3 from "@/assets/premio-auto-3.jpg";
-import premioDinero3 from "@/assets/premio-dinero-3.jpg";
 
+// Array de premios entregados - Fácil de agregar más elementos
 const deliveredPrizes = [
   {
     id: 1,
@@ -25,63 +21,8 @@ const deliveredPrizes = [
     description: "Toyota Corolla 2024 - Sorteo Marzo",
     winner: "Carlos Mendoza",
     instagramUrl: "https://instagram.com/rifaloshermanos"
-  },
-  {
-    id: 2,
-    image: premioDinero1,
-    imageAlt: "Ganador Premio en Dinero",
-    description: "$5.000.000 en Efectivo - Sorteo Febrero",
-    winner: "María González",
-    instagramUrl: "https://instagram.com/rifaloshermanos"
-  },
-  {
-    id: 3,
-    image: premioAuto2,
-    imageAlt: "Entrega de Auto Premio",
-    description: "Honda Civic 2024 - Sorteo Enero",
-    winner: "José Rodriguez",
-    instagramUrl: "https://instagram.com/rifaloshermanos"
-  },
-  {
-    id: 4,
-    image: premioDinero2,
-    imageAlt: "Familia Ganadora",
-    description: "$3.000.000 en Efectivo - Sorteo Diciembre",
-    winner: "Familia Pérez",
-    instagramUrl: "https://instagram.com/rifaloshermanos"
-  },
-  {
-    id: 5,
-    image: premioAuto3,
-    imageAlt: "Ganador SUV Premio",
-    description: "Mazda CX-5 2024 - Sorteo Noviembre",
-    winner: "Andrea Silva",
-    instagramUrl: "https://instagram.com/rifaloshermanos"
-  },
-  {
-    id: 6,
-    image: premioDinero3,
-    imageAlt: "Joven Ganador",
-    description: "$2.500.000 en Efectivo - Sorteo Octubre",
-    winner: "Diego Morales",
-    instagramUrl: "https://instagram.com/rifaloshermanos"
-  },
-  {
-    id: 7,
-    image: premioAuto1,
-    imageAlt: "Segundo Ganador Auto",
-    description: "Toyota RAV4 2023 - Sorteo Septiembre",
-    winner: "Carmen López",
-    instagramUrl: "https://instagram.com/rifaloshermanos"
-  },
-  {
-    id: 8,
-    image: premioDinero1,
-    imageAlt: "Segundo Premio Dinero",
-    description: "$4.000.000 en Efectivo - Sorteo Agosto",
-    winner: "Roberto Díaz",
-    instagramUrl: "https://instagram.com/rifaloshermanos"
   }
+  // Para agregar más premios, solo copia el objeto anterior y cambia los valores
 ];
 
 const PRIZES_PER_PAGE = 6;
