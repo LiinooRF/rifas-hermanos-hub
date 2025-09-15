@@ -94,6 +94,9 @@ server {
     server_name $DOMAIN www.$DOMAIN;
     root $PROJECT_DIR;
     index index.html;
+    
+    # Tamaño máximo de archivo de subida
+    client_max_body_size 10M;
 
     # Configuración para SPA (Single Page Application)
     location / {
